@@ -1,0 +1,6 @@
+nvcc -o 4-mandel 4-mandel.cu -lglut -lGL -lGLU
+
+
+
+
+LIBRARY_PATH shouldn't contain the current directory when building gcc. Please change the environment variable and run configure again.
